@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install pytest --quiet)",
+      "Bash(pip3 install pytest --quiet)",
+      "Bash(python3 -m pytest --version)",
+      "Bash(python3 -m pytest test_unionfind.py -v)",
+      "Bash(python3 -m unittest test_unionfind_interview -v)",
+      "Bash(python3 pythonchecker.py)"
+    ]
+  }
+}
